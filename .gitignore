@@ -1,0 +1,23 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and large generated output
+*.log
+
+# Potentially sensitive local configuration
+.env
+*.key
+*.pem
+*.p12
+
+# Suricata runtime/generated data
+eve.json
+fast.log
+suricata.log
+
+# Python cache
+__pycache__/
+*.pyc
